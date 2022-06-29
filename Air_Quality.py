@@ -34,7 +34,6 @@ def plot_line(x, y,row):
     # plt.legend()
     plt.xlabel("觀測站")
     plt.ylabel("AQI")
-
     plt.show
 
 # 長條圖函式
@@ -151,13 +150,10 @@ if __name__ == "__main__":
     plt.title("空氣品質指標(AQI)-折線圖",loc="Right")
     plt.xlabel("%s觀測站" %name_sql)
     plt.ylabel("AQI")
-
     plt.show
         
     cusr.close() 
     conn.close()
-
-
 
 
     # Plus Tkinter 操作介面可視化操作 主操作介面+輸入查詢+列表和圖表顯示在主視窗
