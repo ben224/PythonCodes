@@ -156,6 +156,8 @@ if __name__ == "__main__":
     conn.close()
 
 
+
+    # test 20220727
     # Plus Tkinter 操作介面可視化操作 主操作介面+輸入查詢+列表和圖表顯示在主視窗
 
 
